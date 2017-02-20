@@ -113,29 +113,16 @@
 					<div class="row">
 						<div class="col-lg-offset-0 col-lg-6">
 							<form>
+							<input type="hidden" name="project_name" value="Oriflame-one">
+							<input type="hidden" name="admin_email" value="oriflame.galaxy@gmail.com">
+							<input type="hidden" name="form_subject" value="Из обратной связи сайта Oriflame-one.by">
 	<div class="top-margin">
 	<input type="email" id="login" class="form-control" data-title="dsfdsf" name="email" placeholder="E-mail">
 	</div>
   <div class="top-margin">
-    <textarea class="form-control" rows="5" name='text' placeholder="Ваше сообщение"></textarea>
+    <textarea class="form-control" rows="5" name='Текст' placeholder="Ваше сообщение"></textarea>
   </div><br>
-  	<input type="hidden" name="_next" value="contact.html" />
-	<input type="text" name="_gotcha" style="display:none" />
-	<div id="box" style="display:none">Отправлено</div>
-  <button onclick="openbox('box') type="submit" class="btn btn-default" name='but'>Отправить</button> <hr><br>
-  <script type="text/javascript">
-$(document).ready(function() {
-  $('#open-close').show();
-  $('#block-links').hide();
-
-  $('#open-close').click(function(event) {
-    event.preventDefault(); // Для того чтобы при нажатии на ссылку не кидало вверх
-    $('#block-links').slideToggle();
-  });
-});
-</script>
-
-
+  <button type="submit" class="btn btn-default" name='but'>Отправить</button> <hr><br>
   						</form>
 
 			</article>
@@ -246,6 +233,7 @@ $(document).ready(function() {
 	<script src="assets/js/headroom.min.js"></script>
 	<script src="assets/js/jQuery.headroom.min.js"></script>
 	<script src="assets/js/template.js"></script>
+	<script src="assets/js/forcontact.js"></script>
 	
 	<!--   Google Maps 
 	<script src="https://maps.googleapis.com/maps/api/js?key=&amp;sensor=false&amp;extension=.js"></script> 

@@ -24,9 +24,6 @@
 	<script src="assets/js/html5shiv.js"></script>
 	<script src="assets/js/respond.min.js"></script>
 	<![endif]-->
-
-
-	
 </head>
 
 <body>
@@ -117,21 +114,21 @@
 									и поможет получить номер консультанта. </p>
 							<hr>
 
-							<form method="POST">
+							<form>
 							<input type="hidden" name="project_name" value="Oriflame-one">
-							<input type="hidden" name="admin_email" value="oriflame-galaxy@gmail.com">
-							<input type="hidden" name="form_subject" value="Заявка на регистрацию">
+							<input type="hidden" name="admin_email" value="oriflame.galaxy@gmail.com">
+							<input type="hidden" name="form_subject" value="Заявка на регистрацию с сайта Oriflame-one.by">
 								<div class="top-margin">
 									<label>ФИО</label>
-									<input type="text" class="form-control" name="name">
+									<input type="text" class="form-control" name="ФИО" required>
 								</div>
 								<div class="top-margin">
 									<label>Серия и номер паспорта</label>
-									<input type="text" class="form-control" name="passport">
+									<input type="text" class="form-control" name="Паспорт" required>
 								</div>
 								<div class="top-margin">
 									<label>Мобильный телефон (с кодом)</label>
-									<input type="text" class="form-control" name="phone">
+									<input type="text" class="form-control" name="Телефон" required>
 								</div>
 									<div class="top-margin">
 										<label>Email (если есть)</label>
@@ -139,15 +136,15 @@
 									</div>
 									<div class="top-margin">
 										<label>Дата рождения</label>
-										<input type="date" class="form-control" name="birthday">
+										<input type="date" class="form-control" name="Дата рождения">
 									</div>
 									<div class="top-margin">
 										<label>Адрес</label>
-										<input type="text" class="form-control" name="adress">
+										<input type="text" class="form-control" name="Адрес">
 									</div>
 									<div class="top-margin">
 										<label>Индекс</label>
-										<input type="text" class="form-control" name="index">
+										<input type="text" class="form-control" name="Индекс">
 									</div>
 								
 
@@ -156,11 +153,11 @@
 								<div class="row">
 									<div class="col-lg-8">
 										<label class="checkbox">
-											<input type="checkbox" name="Podpiska"> 
+											<input type="checkbox" name="Подписка(on-да,no-нет)"> 
 											Подписаться на новости и обновления</a>
 										</label>                        
 									</div>
-									<input type="hidden" name="_next" value="alarm.html" />
+									
 									<div class="col-lg-3text-right">
 										<button class="btn btn-action" type="submit">Регистрация</button>
 									</div>
@@ -216,8 +213,6 @@
 				</div> 
 			</div>
 		</div>
-
-
 
 		<div class="footer2">
 			<div class="container">
